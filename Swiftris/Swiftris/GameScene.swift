@@ -13,7 +13,7 @@ SKScene {
         
         anchorPoint = CGPoint(x: 0,y: 1.0)
         
-        let background = SKSpriteNode(imageNamed:"background")
+        let background = SKSpriteNode(imageNamed:"background") /* let indicates background cannot be reassigned */
         background.position = CGPoint(x: 0,y: 0)
         background.anchorPoint = CGPoint(x:0, y:0)
         addChild(background)
