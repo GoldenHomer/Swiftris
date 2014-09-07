@@ -8,11 +8,11 @@
 
 import Foundation
 
-class Array2D<T> {
+class Array2D<T> { /* <T> allows array to store any type of data */
     let columns: Int
     let rows: Int
     
-    var array: Array<T?>
+    var array: Array<T?> /* with ? denotes an optional value */
     
     init(columns: Int, rows: Int){
         self.columns = columns
