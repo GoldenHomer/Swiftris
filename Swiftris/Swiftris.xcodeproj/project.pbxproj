@@ -25,6 +25,13 @@
 		9137B480198F78C500501BA0 /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9137B47A198F78C500501BA0 /* gameboard@2x.png */; };
 		9137B481198F78C500501BA0 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9137B47B198F78C500501BA0 /* whitebg.png */; };
 		9137B482198F78C500501BA0 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9137B47C198F78C500501BA0 /* whitebg@2x.png */; };
+		91678FA119BD0C15007C329F /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FA019BD0C15007C329F /* TShape.swift */; };
+		91678FA319BD0F30007C329F /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FA219BD0F30007C329F /* LineShape.swift */; };
+		91678FA519BD1046007C329F /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FA419BD1046007C329F /* Shape.swift */; };
+		91678FA719BD1061007C329F /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FA619BD1061007C329F /* Array2D.swift */; };
+		91678FA919BD106E007C329F /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FA819BD106E007C329F /* Block.swift */; };
+		91678FAB19BD1087007C329F /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FAA19BD1087007C329F /* SquareShape.swift */; };
+		91678FAD19BD11B6007C329F /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FAC19BD11B6007C329F /* LShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +67,13 @@
 		9137B47A198F78C500501BA0 /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
 		9137B47B198F78C500501BA0 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		9137B47C198F78C500501BA0 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
+		91678FA019BD0C15007C329F /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
+		91678FA219BD0F30007C329F /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		91678FA419BD1046007C329F /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		91678FA619BD1061007C329F /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		91678FA819BD106E007C329F /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		91678FAA19BD1087007C329F /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		91678FAC19BD11B6007C329F /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,13 @@
 		9115C5CF198F6D1B0094FE2B /* Swiftris */ = {
 			isa = PBXGroup;
 			children = (
+				91678FAC19BD11B6007C329F /* LShape.swift */,
+				91678FAA19BD1087007C329F /* SquareShape.swift */,
+				91678FA819BD106E007C329F /* Block.swift */,
+				91678FA619BD1061007C329F /* Array2D.swift */,
+				91678FA219BD0F30007C329F /* LineShape.swift */,
+				91678FA419BD1046007C329F /* Shape.swift */,
+				91678FA019BD0C15007C329F /* TShape.swift */,
 				9115C5D2198F6D1B0094FE2B /* AppDelegate.swift */,
 				9115C5D6198F6D1B0094FE2B /* GameScene.swift */,
 				9115C5D8198F6D1B0094FE2B /* GameViewController.swift */,
@@ -267,6 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91678FAD19BD11B6007C329F /* LShape.swift in Sources */,
+				91678FA719BD1061007C329F /* Array2D.swift in Sources */,
+				91678FA919BD106E007C329F /* Block.swift in Sources */,
+				91678FA119BD0C15007C329F /* TShape.swift in Sources */,
+				91678FA519BD1046007C329F /* Shape.swift in Sources */,
+				91678FA319BD0F30007C329F /* LineShape.swift in Sources */,
+				91678FAB19BD1087007C329F /* SquareShape.swift in Sources */,
 				9115C5D7198F6D1B0094FE2B /* GameScene.swift in Sources */,
 				9115C5D9198F6D1B0094FE2B /* GameViewController.swift in Sources */,
 				9115C5D3198F6D1B0094FE2B /* AppDelegate.swift in Sources */,

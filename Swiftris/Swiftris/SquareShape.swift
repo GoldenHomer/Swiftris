@@ -1,5 +1,5 @@
 class SquareShape:Shape{
-    // This shape won't rotate
+    // This shape won't rotate 
     /* | 0 | 1 |
        | 2 | 3 | 
     Quadrants of row and column for square.
