@@ -32,6 +32,10 @@
 		91678FA919BD106E007C329F /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FA819BD106E007C329F /* Block.swift */; };
 		91678FAB19BD1087007C329F /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FAA19BD1087007C329F /* SquareShape.swift */; };
 		91678FAD19BD11B6007C329F /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FAC19BD11B6007C329F /* LShape.swift */; };
+		91678FAF19BD1492007C329F /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FAE19BD1492007C329F /* JShape.swift */; };
+		91678FB119BD1644007C329F /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FB019BD1644007C329F /* SShape.swift */; };
+		91678FB319BD186D007C329F /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91678FB219BD186D007C329F /* ZShape.swift */; };
+		91ACFF6C19BD44760041D0F3 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ACFF6B19BD44760041D0F3 /* Swiftris.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,10 @@
 		91678FA819BD106E007C329F /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		91678FAA19BD1087007C329F /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 		91678FAC19BD11B6007C329F /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		91678FAE19BD1492007C329F /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		91678FB019BD1644007C329F /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		91678FB219BD186D007C329F /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		91ACFF6B19BD44760041D0F3 /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,8 @@
 		9115C5CF198F6D1B0094FE2B /* Swiftris */ = {
 			isa = PBXGroup;
 			children = (
+				91678FB019BD1644007C329F /* SShape.swift */,
+				91678FAE19BD1492007C329F /* JShape.swift */,
 				91678FAC19BD11B6007C329F /* LShape.swift */,
 				91678FAA19BD1087007C329F /* SquareShape.swift */,
 				91678FA819BD106E007C329F /* Block.swift */,
@@ -126,6 +136,8 @@
 				9115C5D6198F6D1B0094FE2B /* GameScene.swift */,
 				9115C5D8198F6D1B0094FE2B /* GameViewController.swift */,
 				9115C5DA198F6D1B0094FE2B /* Main.storyboard */,
+				91ACFF6B19BD44760041D0F3 /* Swiftris.swift */,
+				91678FB219BD186D007C329F /* ZShape.swift */,
 				9137B46A198F786F00501BA0 /* Sounds */,
 				9115C5DD198F6D1B0094FE2B /* Images.xcassets */,
 				9115C5D0198F6D1B0094FE2B /* Supporting Files */,
@@ -291,12 +303,16 @@
 				91678FAD19BD11B6007C329F /* LShape.swift in Sources */,
 				91678FA719BD1061007C329F /* Array2D.swift in Sources */,
 				91678FA919BD106E007C329F /* Block.swift in Sources */,
+				91678FAF19BD1492007C329F /* JShape.swift in Sources */,
+				91ACFF6C19BD44760041D0F3 /* Swiftris.swift in Sources */,
 				91678FA119BD0C15007C329F /* TShape.swift in Sources */,
 				91678FA519BD1046007C329F /* Shape.swift in Sources */,
 				91678FA319BD0F30007C329F /* LineShape.swift in Sources */,
+				91678FB119BD1644007C329F /* SShape.swift in Sources */,
 				91678FAB19BD1087007C329F /* SquareShape.swift in Sources */,
 				9115C5D7198F6D1B0094FE2B /* GameScene.swift in Sources */,
 				9115C5D9198F6D1B0094FE2B /* GameViewController.swift in Sources */,
+				91678FB319BD186D007C329F /* ZShape.swift in Sources */,
 				9115C5D3198F6D1B0094FE2B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
