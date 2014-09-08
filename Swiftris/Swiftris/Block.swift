@@ -23,6 +23,7 @@ enum BlockColor: Int, Printable {
     var description: String {
         return self.spriteName
     }
+    
     static func random() -> BlockColor {
         return BlockColor.fromRaw(<#Int#>(arc4random_uniform(NumberOfColors)))!
     }

@@ -37,7 +37,7 @@ class TShape:Shape{
     override var bottomBlocksForOrientations: [Orientation: Array<Block>]{
         return [
             Orientation.Zero: [blocks[SecondBlockIndex], blocks[ThirdBlockIndex], blocks[FourthBlockIndex]],
-            Orientation.Ninety: [blocks[FristBlockIndex], blocks[FourthBlockIndex]],
+            Orientation.Ninety: [blocks[FirstBlockIndex], blocks[FourthBlockIndex]],
             Orientation.Zero: [blocks[FirstBlockIndex], blocks[SecondBlockIndex], blocks[FourthBlockIndex]],
             Orientation.Zero: [blocks[FirstBlockIndex], blocks[FourthBlockIndex]]
             
