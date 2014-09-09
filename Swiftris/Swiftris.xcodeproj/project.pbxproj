@@ -148,11 +148,11 @@
 				91678FB019BD1644007C329F /* SShape.swift */,
 				91678FB219BD186D007C329F /* ZShape.swift */,
 				91ACFF6B19BD44760041D0F3 /* Swiftris.swift */,
+				9137B47B198F78C500501BA0 /* whitebg.png */,
 				9137B477198F78C500501BA0 /* background.png */,
 				9137B478198F78C500501BA0 /* background@2x.png */,
 				9137B479198F78C500501BA0 /* gameboard.png */,
 				9137B47A198F78C500501BA0 /* gameboard@2x.png */,
-				9137B47B198F78C500501BA0 /* whitebg.png */,
 				9137B47C198F78C500501BA0 /* whitebg@2x.png */,
 				9115C5D1198F6D1B0094FE2B /* Info.plist */,
 			);
